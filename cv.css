@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(207, 196, 196, 0.973);
+    
+}
+main {
+    width: 1006px;
+    height: 900px;
+    background-color: rgb(245, 241, 236);
+    border-style: ridge;
+    border-color: rgb(0, 0, 0);
+}
+    header {
+        height: 250px;
+        width: 1006px;
+        background-color: rgb(139, 161, 161);
+        border-bottom:ridge;
+        border-color: rgb(0, 0, 0);
+            /*border-bottom: groove;
+            border-color: rgb(0, 0, 0);*/
+            /*margin-left: 100px;*/
+    }
+        .namnBox {
+            height: 175px;
+            width:650px;
+            position:absolute;
+            z-index:2;
+            left: 355px;
+            top: 30px;
+            
+            font-variant: small-caps;
+            font-family: "Audiowide", sans-serif;
+                #yrke {
+                    font-size: 25px;
+                    font-weight:lighter;
+                    text-align: center;
+                    letter-spacing: 10px;
+                }
+                #namn {
+                    font-size: 50px;
+                    font-weight: bolder;
+                    letter-spacing: -2px;
+                }
+        }   
+        #bildRuta {
+            float: top;
+            height: 350px;
+            width: 350px;
+            background-color: rgb(43, 68, 68);
+            position:absolute;
+            z-index:1;
+            
+        }
+            img {
+                /*border-style: ridge;
+                border-color: rgb(49, 80, 80);*/
+                margin-top: 6px;
+                margin-left: 56px;
+                border-radius: 50%;
+                border:ridge;
+                box-shadow: -5px 5px 1px 0px black;
+                
+        border-color: rgb(0, 0, 0);
+            }
+
+
+    aside {
+        height: 648px;
+        width: 350px;
+        border-right:ridge;
+        border-color: rgb(0, 0, 0);
+            /*margin-left: 100px;*/
+        background-color: rgb(69, 88, 88);
+        
+    }
+        #omMig {
+            height: 530px;
+            width:603px;
+            position:absolute;
+            z-index:2;
+            left: 356px;
+            top: 289px;
+            text-align: justify;
+            padding: 25px;
+            
+            
+
+            
+        }
+        #info1 {
+            height: 530px;
+            width:300px;
+            position:absolute;
+            z-index:2;
+            text-align: justify;
+            padding: 25px;
+        }
+        /*#info2 {
+            height: 175px;
+            width:650px;
+            position:absolute;
+            z-index:2;
+            left: 353px;
+            bottom: 15px;
+            text-align: center;
+        }*/
+    #knappRuta {
+        height: 30px;
+        width: 1006px;
+        /*border-style: ridge;*/
+        border-bottom:ridge; 
+        border-color: rgb(0, 0, 0);
+        background-color: rgb(31, 41, 41);
+    }
+    #infoRuta1 {
+        height: 30px;
+        width: 1006px; 
+        border-top: ridge;
+        border-color: rgb(0, 0, 0);
+        background-color: rgb(31, 41, 41);
+        margin-top: 581px;
+        
+
+    }
+    .ikoner {
+        padding: 14px;
+        font-size: 45px;
+        color: rgb(139, 161, 161);
+    }
+    .infoRutor {
+        font-family: 'Courier New', Courier, monospace;
+    }
