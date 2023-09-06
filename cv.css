@@ -61,7 +61,7 @@ body {
                 border-color: rgb(0, 0, 0);
             }
         #headerLine {
-            height: 10px;
+            height: 12px;
             width: 1006px;
             /*border-style: ridge;*/
             border-bottom:ridge; 
@@ -69,10 +69,10 @@ body {
             background-color: rgb(31, 41, 41);
         }
         aside {
-            height: 727px;
+            height: 734px;
             width: 350px;
-            border-right:ridge;
-            border-color: rgb(0, 0, 0);
+            /*border-right:ridge;
+            border-color: rgb(0, 0, 0);*/
             background-color: rgb(105, 126, 126);
             text-align: left;
         }
@@ -80,7 +80,7 @@ body {
                 height: 40px;
                 width: 350px;
                 position: absolute;
-                top: 266px;
+                top: 261px;
                 border-bottom: ridge;
                 border-color: rgb(0, 0, 0);
                 background-color: rgb(115, 117, 116);
@@ -89,18 +89,19 @@ body {
             }
             #kontaktInfoBoxBot {
                 
-                height: 209.3px;
-                width: 350px;
+                height: 218px;
+                width: 348.7px;
                 position: absolute;
-                top: 308px;
-                border-bottom: ridge;
+                top: 302px;
+                border-right:ridge;
                 border-color: rgb(0, 0, 0);
+                font-size: 20px;
 
               
                 
                 
             }
-            #utbildningBoxTop {
+            /*#utbildningBoxTop {
                 height: 40px;
                 width: 350px;
                 position: absolute;
@@ -110,32 +111,48 @@ body {
                 background-color: rgb(115, 117, 116);
                 
                 
-            }
+            }*/
             #utbildningBoxBot {
-                height: 209.3px;
-                width: 350px;
+                height: 210.7px;
+                width: 348.7px;
                 position: absolute;
                 top: 562px;
+                z-index: 1;
+                border-right:ridge;
                 border-bottom: ridge;
                 border-color: rgb(0, 0, 0);
+                text-align: center;
+                
+                
+                
             }
             #licenserBoxTop {
                 height: 40px;
                 width: 350px;
                 position: absolute;
                 top: 774px;
-                border-bottom: ridge;
-                border-color: rgb(0, 0, 0);
+                
                 background-color: rgb(115, 117, 116);
+                
             }
             #licenserBoxBot {
-                height: 169.3px;
-                width:350px;
+                height: 190px;
+                width:348.7px;
+                border-right:ridge;
+                border-top:ridge;
                 position: absolute;
-                top: 823px;
+                z-index: 1;
+                border-color: rgb(0, 0, 0);
+                top: 814px;
+                text-align: center;
+                font-weight: lighter;
+                line-height: 40px;
             }
         .aside {
-            font-family:Calibri, 'Trebuchet MS', sans-serif
+            font-family:
+            Georgia, 'Times New Roman', Times, serif;
+            font-weight: lighter;
+
         }
         #asideh1 {
             text-align: center;
@@ -145,6 +162,7 @@ body {
             font-family: "Audiowide", sans-serif;
             font-weight:lighter;
             letter-spacing: 3px;
+            font-size: 24px;
             
         }
 
@@ -166,29 +184,29 @@ body {
         
     #presentationBoxTop {
         height: 40px;
-        width:653px;
+        width:1006px;
         position: absolute;
-        left: 353px;
-        top: 266px;
+        top: 261px;
         text-align: center;
         border-bottom: ridge;
         border-color: rgb(0, 0, 0);
         background-color: rgb(115, 117, 116);
     }
     #presentationBoxBot {
-            height: 187px;
-            width:603px;
+            height: 165px;
+            width:605px;
             position:absolute;
-            left: 353px;
-            top: 366px;
-            text-align: justify;
+            left: 350px;
+            top: 304px;
+            text-align: left;
+            margin: 25px;
     }
     #yrkesBoxTop{
-        height: 40px;
-        width:653px;
+        height: 40.3px;
+        width:1006px;
         position: absolute;
-        left: 353px;
-        top: 517.3px;
+        z-index: 1;
+        top: 518.7px;
         text-align: center;
         border-bottom: ridge;
         border-top: ridge;
@@ -196,29 +214,59 @@ body {
         background-color: rgb(115, 117, 116);
     }
     #yrkesBoxBot {
-            height: 397px;
+            height: 377px;
             width:603px;
             position:absolute;
             left: 353px;
-            top: 546px;
+            top: 566px;
             text-align: justify;
-            padding: 25px;
+            padding-left: 25px;
+            padding-top: 25px;
     }
     #presh1 {
-        text-align: center;
+        text-align: left;
         margin-block-start: 5px;
         background-color: rgb(128, 139, 139);
         font-variant: small-caps;
         font-family: "Audiowide", sans-serif;
         font-weight:lighter;
         letter-spacing: 3px;
-        font-size: 25px;
+        font-size: 24px;
+        word-spacing: 250px;
+        text-indent: 100px;
         
+    }
+    #presh12 {
+        text-align: left;
+        margin-block-start: 5px;
+        background-color: rgb(128, 139, 139);
+        font-variant: small-caps;
+        font-family: "Audiowide", sans-serif;
+        font-weight:lighter;
+        letter-spacing: 3px;
+        font-size: 24px;
+        word-spacing: 250px;
+        text-indent: 35px;
+    }
+    #presh13 {
+        text-align: left;
+        margin-block-start: -47px;
+       
+        font-variant: small-caps;
+        font-family: "Audiowide", sans-serif;
+        font-weight:lighter;
+        letter-spacing: 3px;
+        font-size: 24px;
+        text-indent: 635px;
     }
 #bottomLine {
     height: 10px;
     width: 1006px; 
     border-top: ridge;
+    position: absolute;
+    left: -353px;
+    z-index: 1;
+    top: 429px;
     border-color: rgb(0, 0, 0);
     background-color: rgb(31, 41, 41);
 }
