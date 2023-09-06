@@ -148,30 +148,73 @@ body {
             
         }
 
-    
-    .infoBoxar {
+    /*#midLine {
+        height: 727px;
+        width: 1px;
+        position: absolute;
+        top: 266px;
+        left: 353px;
+        z-index: 4;
+        background-color: rgb(29, 29, 25);
+        
+        border-right: ridge;
+        border-color: rgb(0, 0, 0);
+    }*/
+    /*.infoBoxar {
         font-family: Calibri, 'Trebuchet MS', sans-serif
+    }*/
+        
+    #presentationBoxTop {
+        height: 40px;
+        width:653px;
+        position: absolute;
+        left: 353px;
+        top: 266px;
+        text-align: center;
+        border-bottom: ridge;
+        border-color: rgb(0, 0, 0);
+        background-color: rgb(115, 117, 116);
     }
-        #presentationBox {
-            height: 230px;
+    #presentationBoxBot {
+            height: 187px;
             width:603px;
             position:absolute;
-            z-index:2;
             left: 353px;
-            top: 266px;
+            top: 366px;
             text-align: justify;
-            padding: 25px;
-        }
-        #yrkesBox {
+    }
+    #yrkesBoxTop{
+        height: 40px;
+        width:653px;
+        position: absolute;
+        left: 353px;
+        top: 517.3px;
+        text-align: center;
+        border-bottom: ridge;
+        border-top: ridge;
+        border-color: rgb(0, 0, 0);
+        background-color: rgb(115, 117, 116);
+    }
+    #yrkesBoxBot {
             height: 397px;
             width:603px;
             position:absolute;
-            z-index:3;
             left: 353px;
             top: 546px;
             text-align: justify;
             padding: 25px;
-        }
+    }
+    #presh1 {
+        text-align: center;
+        margin-block-start: 5px;
+        background-color: rgb(128, 139, 139);
+        font-variant: small-caps;
+        font-family: "Audiowide", sans-serif;
+        font-weight:lighter;
+        letter-spacing: 3px;
+        font-size: 25px;
+        
+    }
 #bottomLine {
     height: 10px;
     width: 1006px; 
