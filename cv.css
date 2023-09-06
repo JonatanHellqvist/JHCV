@@ -3,17 +3,21 @@ body {
     padding: 0;
     background-color: rgba(96, 117, 103, 0.226);
     display: flex;
-    
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 main {
     width: 1006px;
-    height: 900px;
+    height: 1006px;
     background-color: rgb(245, 241, 236);
     border-style: ridge;
     border-color: rgb(0, 0, 0);
     position: relative;
     max-width: 1006px;
-    margin: auto;
+    max-height: 1006px;
+    
+    
 
 }
     header {
@@ -71,7 +75,7 @@ main {
 
 
     aside {
-        height: 648px;
+        height: 740px;
         width: 350px;
         border-right:ridge;
         border-color: rgb(0, 0, 0);
@@ -111,7 +115,7 @@ main {
             text-align: center;
         }*/
     #knappRuta {
-        height: 30px;
+        height: 10px;
         width: 1006px;
         /*border-style: ridge;*/
         border-bottom:ridge; 
@@ -119,12 +123,12 @@ main {
         background-color: rgb(31, 41, 41);
     }
     #infoRuta1 {
-        height: 30px;
+        height: 10px;
         width: 1006px; 
         border-top: ridge;
         border-color: rgb(0, 0, 0);
         background-color: rgb(31, 41, 41);
-        margin-top: 581px;
+        margin-top: 727px;
         
 
     }
