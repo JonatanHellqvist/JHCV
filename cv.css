@@ -57,7 +57,7 @@ body {
                 margin-left: 56px;
                 border-radius: 50%;
                 border:ridge;
-                /*box-shadow: -5px 5px 1px 0px black;*/
+                box-shadow: -10px 3px 25px -5px black;
                 border-color: rgb(0, 0, 0);
             }
         #headerLine {
@@ -69,18 +69,18 @@ body {
             background-color: rgb(31, 41, 41);
         }
         aside {
-            height: 734px;
+            height: 725px;
             width: 350px;
             /*border-right:ridge;
             border-color: rgb(0, 0, 0);*/
             background-color: rgb(105, 126, 126);
-            text-align: left;
+            
         }
             #kontaktInfoBoxTop {
                 height: 40px;
                 width: 350px;
                 position: absolute;
-                top: 261px;
+                top: 263px;
                 border-bottom: ridge;
                 border-color: rgb(0, 0, 0);
                 background-color: rgb(115, 117, 116);
@@ -95,17 +95,72 @@ body {
                 top: 302px;
                 border-right:ridge;
                 border-color: rgb(0, 0, 0);
-                font-size: 35px;
+                font-size: 25px;
                 text-align: center;
-               
+                font-weight: lighter;
+                letter-spacing: 5px;
+                line-height: 25px;
+                text-align: top;
                 
+                         
+            }
+            #kontaktP1{
+                margin-top: 15px;
+            }
+            #kik1 {
+                font-size: 32px;
+                margin-top: 5px;
             }
                 #ikonerBox {
-                    align-items: top;
-                    height: 50px;
+                    align-items: center;
+                   
                     position: absolute;
-                    top:5px;
+                    top:125px;
+                    left: 350px;
+                    color: black;
+                    z-index: 4;
                 }
+                #ikon1 {
+                    font-size: 15px;
+                    color: black;
+                    text-shadow: -3px 0px 12px black;
+                    
+                }
+                /*#ikon2 {
+                    font-size: 15px;
+                    color: black;
+                    text-shadow: -5px 0px 15px black;
+                    
+                }*/
+                    /*#ikonBox1 {
+                        position: absolute;
+                        top: 0px;
+                        left: 202px;
+                    }
+                    
+                   
+                    #ikonBox2 {
+                        position: absolute;
+                        top: 30px;
+                        left: 235px;
+                    }
+                    
+                    #ikon2 {
+                        font-size: 20px;
+                        color: black;
+                        
+                    }
+                    #ikonBox3 {
+                        position: absolute;
+                        top: 70px;
+                        left: 260px;
+                    }
+                    
+                    #ikon3 {
+                        font-size: 20px;
+                        color: black;
+                        
+                    }*/
             #yh {
                 margin-bottom: 0px;
                 margin-top: 18px;
@@ -195,7 +250,7 @@ body {
         height: 40px;
         width:1006px;
         position: absolute;
-        top: 261px;
+        top: 263px;
         text-align: center;
         border-bottom: ridge;
         border-color: rgb(0, 0, 0);
