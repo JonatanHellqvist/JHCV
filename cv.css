@@ -23,9 +23,6 @@ body {
             background-color: rgb(139, 161, 161);
             border-bottom:ridge;
             border-color: rgb(0, 0, 0);
-                /*border-bottom: groove;
-                border-color: rgb(0, 0, 0);*/
-                /*margin-left: 100px;*/
         }       
         .namnBox {
             height: 175px;
@@ -36,7 +33,6 @@ body {
             top: 30px;
             font-variant: small-caps;
             font-family: "Audiowide", sans-serif;
-            
                 #yrke {
                     font-size: 25px;
                     font-weight:lighter;
@@ -51,8 +47,6 @@ body {
                 }
         }   
             img {
-                /*border-style: ridge;
-                border-color: rgb(49, 80, 80);*/
                 margin-top: 6px;
                 margin-left: 56px;
                 border-radius: 50%;
@@ -63,7 +57,6 @@ body {
         #headerLine {
             height: 12px;
             width: 1006px;
-            /*border-style: ridge;*/
             border-bottom:ridge; 
             border-color: rgb(0, 0, 0);
             background-color: rgb(31, 41, 41);
@@ -71,10 +64,7 @@ body {
         aside {
             height: 725px;
             width: 350px;
-            /*border-right:ridge;
-            border-color: rgb(0, 0, 0);*/
             background-color: rgb(105, 126, 126);
-            
         }
             #kontaktInfoBoxTop {
                 height: 40px;
@@ -84,11 +74,8 @@ body {
                 border-bottom: ridge;
                 border-color: rgb(0, 0, 0);
                 background-color: rgb(115, 117, 116);
-                
-                
             }
-            #kontaktInfoBoxBot {
-                
+            #kontaktInfoBoxBot {    
                 height: 218px;
                 width: 348.7px;
                 position: absolute;
@@ -101,8 +88,6 @@ body {
                 letter-spacing: 5px;
                 line-height: 25px;
                 text-align: top;
-                
-                         
             }
             #kontaktP1{
                 margin-top: 15px;
@@ -113,7 +98,6 @@ body {
             }
                 #ikonerBox {
                     align-items: center;
-                   
                     position: absolute;
                     top:125px;
                     left: 350px;
@@ -124,58 +108,39 @@ body {
                     font-size: 15px;
                     color: black;
                     text-shadow: -3px 0px 12px black;
-                    
                 }
                 /*#ikon2 {
                     font-size: 15px;
                     color: black;
                     text-shadow: -5px 0px 15px black;
-                    
                 }*/
                     /*#ikonBox1 {
                         position: absolute;
                         top: 0px;
                         left: 202px;
                     }
-                    
-                   
                     #ikonBox2 {
                         position: absolute;
                         top: 30px;
                         left: 235px;
                     }
-                    
                     #ikon2 {
                         font-size: 20px;
                         color: black;
-                        
                     }
                     #ikonBox3 {
                         position: absolute;
                         top: 70px;
                         left: 260px;
                     }
-                    
                     #ikon3 {
                         font-size: 20px;
                         color: black;
-                        
                     }*/
             #yh {
                 margin-bottom: 0px;
                 margin-top: 18px;
             }
-            /*#utbildningBoxTop {
-                height: 40px;
-                width: 350px;
-                position: absolute;
-                top: 520px;
-                border-bottom: ridge;
-                border-color: rgb(0, 0, 0);
-                background-color: rgb(115, 117, 116);
-                
-                
-            }*/
             #utbildningBoxBot {
                 height: 210.7px;
                 width: 348.7px;
@@ -185,19 +150,14 @@ body {
                 border-right:ridge;
                 border-bottom: ridge;
                 border-color: rgb(0, 0, 0);
-                text-align: center;
-                
-                
-                
+                text-align: center;    
             }
             #licenserBoxTop {
                 height: 40px;
                 width: 350px;
                 position: absolute;
                 top: 774px;
-                
                 background-color: rgb(175, 187, 187);
-                
             }
             #licenserBoxBot {
                 height: 190px;
@@ -216,7 +176,6 @@ body {
             font-family:
             Georgia, 'Times New Roman', Times, serif;
             font-weight: lighter;
-
         }
         #asideh1 {
             text-align: center;
@@ -227,25 +186,7 @@ body {
             font-weight:lighter;
             letter-spacing: 3px;
             font-size: 24px;
-            
         }
-
-    /*#midLine {
-        height: 727px;
-        width: 1px;
-        position: absolute;
-        top: 266px;
-        left: 353px;
-        z-index: 4;
-        background-color: rgb(29, 29, 25);
-        
-        border-right: ridge;
-        border-color: rgb(0, 0, 0);
-    }*/
-    /*.infoBoxar {
-        font-family: Calibri, 'Trebuchet MS', sans-serif
-    }*/
-        
     #presentationBoxTop {
         height: 40px;
         width:1006px;
@@ -254,7 +195,7 @@ body {
         text-align: center;
         border-bottom: ridge;
         border-color: rgb(0, 0, 0);
-        background-color: rgb(115, 117, 116);
+        background-color: rgb(139, 161, 161);
     }
     #presentationBoxBot {
             height: 165px;
@@ -267,7 +208,6 @@ body {
             font-size: 16px;
             font-family:
             Georgia, 'Times New Roman', Times, serif;
-            
     }
     #yrkesBoxTop{
         height: 40.3px;
@@ -279,7 +219,7 @@ body {
         border-bottom: ridge;
         border-top: ridge;
         border-color: rgb(0, 0, 0);
-        background-color: rgb(115, 117, 116);
+        background-color: rgb(139, 161, 161);
     }
     #yrkesBoxBot {
             height: 377px;
@@ -293,7 +233,6 @@ body {
             font-family:
             Georgia, 'Times New Roman', Times, serif;
             font-weight: lighter;
-            
     }
     #presh1 {
         text-align: left;
@@ -306,7 +245,6 @@ body {
         font-size: 24px;
         word-spacing: 250px;
         text-indent: 100px;
-        
     }
     #presh12 {
         text-align: left;
