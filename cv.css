@@ -10,7 +10,7 @@ body {
     main {
         width: 1006px;
         height: 1006px;
-        background-color: rgb(245, 241, 236);
+        background-color: rgb(175, 187, 187);
         border-style: ridge;
         border-color: rgb(0, 0, 0);
         position: relative;
@@ -57,7 +57,7 @@ body {
                 margin-left: 56px;
                 border-radius: 50%;
                 border:ridge;
-                box-shadow: -5px 5px 1px 0px black;
+                /*box-shadow: -5px 5px 1px 0px black;*/
                 border-color: rgb(0, 0, 0);
             }
         #headerLine {
@@ -95,11 +95,20 @@ body {
                 top: 302px;
                 border-right:ridge;
                 border-color: rgb(0, 0, 0);
-                font-size: 20px;
-
-              
+                font-size: 35px;
+                text-align: center;
+               
                 
-                
+            }
+                #ikonerBox {
+                    align-items: top;
+                    height: 50px;
+                    position: absolute;
+                    top:5px;
+                }
+            #yh {
+                margin-bottom: 0px;
+                margin-top: 18px;
             }
             /*#utbildningBoxTop {
                 height: 40px;
@@ -132,7 +141,7 @@ body {
                 position: absolute;
                 top: 774px;
                 
-                background-color: rgb(115, 117, 116);
+                background-color: rgb(175, 187, 187);
                 
             }
             #licenserBoxBot {
@@ -157,7 +166,7 @@ body {
         #asideh1 {
             text-align: center;
             margin-block-start: 5px;
-            background-color: rgb(128, 139, 139);
+            background-color: rgb(175, 187, 187);
             font-variant: small-caps;
             font-family: "Audiowide", sans-serif;
             font-weight:lighter;
@@ -198,8 +207,12 @@ body {
             position:absolute;
             left: 350px;
             top: 304px;
-            text-align: left;
-            margin: 25px;
+            text-align: center;
+            margin-left: 25px;
+            font-size: 16px;
+            font-family:
+            Georgia, 'Times New Roman', Times, serif;
+            
     }
     #yrkesBoxTop{
         height: 40.3px;
@@ -219,14 +232,18 @@ body {
             position:absolute;
             left: 353px;
             top: 566px;
-            text-align: justify;
             padding-left: 25px;
-            padding-top: 25px;
+            padding-top: 10px;
+            font-size: 15px;
+            font-family:
+            Georgia, 'Times New Roman', Times, serif;
+            font-weight: lighter;
+            
     }
     #presh1 {
         text-align: left;
         margin-block-start: 5px;
-        background-color: rgb(128, 139, 139);
+        background-color: rgb(139, 161, 161);
         font-variant: small-caps;
         font-family: "Audiowide", sans-serif;
         font-weight:lighter;
@@ -239,7 +256,7 @@ body {
     #presh12 {
         text-align: left;
         margin-block-start: 5px;
-        background-color: rgb(128, 139, 139);
+        background-color: rgb(139, 161, 161);
         font-variant: small-caps;
         font-family: "Audiowide", sans-serif;
         font-weight:lighter;
