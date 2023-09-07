@@ -33,6 +33,7 @@ body {
             top: 30px;
             font-variant: small-caps;
             font-family: "Audiowide", sans-serif;
+        }
                 #yrke {
                     font-size: 25px;
                     font-weight:lighter;
@@ -45,7 +46,7 @@ body {
                     font-weight: bolder;
                     letter-spacing: -2px;
                 }
-        }   
+           
             img {
                 margin-top: 6px;
                 margin-left: 56px;
